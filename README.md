@@ -1,1 +1,1 @@
-# ips-cha-bot
+# ips-chat-bot
