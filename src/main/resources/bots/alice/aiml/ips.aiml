@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<category><pattern>WHAT is IPS</pattern>
+<template>The Integrated Payment Server (IPS) creates a seamless in-store card payment experience. 
+Use IPS to link your Point of Sale (POS) application to next generation payment terminals and mobile devices.
+This single system gives your customers the shopping experience they want with a range of features.
+These include cashback, refunds and charitable donations. As you would expect, IPS offers fast and secure payment processing.</template>
+</category>
+<category><pattern>WHAT IS PED</pattern>
+<template>A PIN pad or PIN entry device is an electronic device used in a debit, credit or smart card-based transaction to accept and encrypt the cardholder's personal identification number.</template>
+</category>
+<category><pattern>WHAT ARE SUPPORTED PEDS</pattern>
+<template>IPS supports following PEDs
+1. E280, 2. P400, 3. V240m </template>
+</category>
+<category><pattern>WHAT PEDS</pattern>
+<template><srai>WHAT ARE SUPPORTED PEDS</srai></template>
+</category>
+<category><pattern>SUPPORTED PEDS</pattern>
+<template><srai>WHAT ARE SUPPORTED PEDS</srai></template>
+</category>
+<category><pattern>WHAT ARE SUPPORTED COMMUNICATION MODES</pattern>
+<template>IPS supports following communication modes:
+ 1. TCP/IP, 2.USB , 3. SERIAL (P400)</template>
+</category>
+<category><pattern>WHAT COMMUNICATION MODES</pattern>
+<template><srai>WHAT ARE SUPPORTED COMMUNICATION MODES</srai></template>
+</category>
+<category><pattern>COMMUNICATION MODES</pattern>
+<template><srai>WHAT ARE SUPPORTED COMMUNICATION MODES</srai></template>
+</category>
+<category><pattern>WHAT ARE THE TRANSACTION TYPES ALLOWED WITH IPS</pattern>
+<template>With IPS you can perform following transactions:
+Financial: Sale, Refund, Pre-Auth, Completion, check-card, check-card followed by payment.
+Non-Financial: Restart PED, Check PED status, last transacion receipts, x/z reports etc.
+To know more about ips visit: https://developer.worldpay.com/docs/ipc </template>
+</category>
+<category><pattern>ALLOWED TRANSACTIONS</pattern>
+<template><srai>WHAT ARE THE TRANSACTION TYPES ALLOWED WITH IPS</srai></template>
+</category>
+<category><pattern>TRANSACTION TYPES</pattern>
+<template><srai>WHAT ARE THE TRANSACTION TYPES ALLOWED WITH IPS</srai></template>
+</category>
+<category><pattern>IPS DOCUMENTATION</pattern>
+<template>IPS-DOCUMENTATION can be found at https://developer.worldpay.com/docs/ipc</template>
+</category>
+<category><pattern>IPS</pattern>
+<template>You can know more about ips from IPS-DOCUMENTATION: https://developer.worldpay.com/docs/ipc</template>
+</category>
+<category><pattern>WHAT ARE SUPPORTED SCHEMES</pattern>
+<template>IPS supports following schemes:
+ Visa, Mastercard, JCB, Diners, Amex, CB, CUP, EFTPOS</template>
+</category>
+<category><pattern>SUPPORTED SCHEMES</pattern>
+<template><srai>WHAT ARE SUPPORTED SCHEMES</srai></template>
+</category>
+<category><pattern>WHAT ARE SUPPORTED LANGUAGES IN IPS</pattern>
+<template>IPS supports following languages:
+ english, french, dutch, german, spanish, danish etc </template>
+</category>
+<category><pattern>LANGUAGES SUPPORTED IN IPS</pattern>
+<template><srai>WHAT ARE SUPPORTED LANGUAGES IN IPS</srai></template>
+</category>
+</aiml>
